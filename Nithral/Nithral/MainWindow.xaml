@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Nithral"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Nithral" Height="518" Width="846" Icon="lean_tech_logo_square_16.png">
     <Grid>
-        
+        <Grid>
+            <Rectangle x:Name="leftMenu" HorizontalAlignment="Left" Width="150" VerticalAlignment="Stretch">
+                <Rectangle.Fill>
+                    <SolidColorBrush Color="#FF334048"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Label x:Name="releaseLabel" Content="Release 2020" HorizontalAlignment="Left" Margin="25,0,0,10" Style="{DynamicResource SimpleLabel}" VerticalAlignment="Bottom" Height="20" Width="100" Foreground="White" FontSize="14" HorizontalContentAlignment="Center"/>
+            <Rectangle x:Name="logoBackground" Fill="#FFCFCFCF" HorizontalAlignment="Stretch" Height="60" VerticalAlignment="Top"/>
+            <Image x:Name="logo" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="130" Source="10LAT.png" Margin="10,10,0,0"/>
+   
+        </Grid>
+        <Grid x:Name="mapView">
+            <Image x:Name="planBox" HorizontalAlignment="Stretch" Margin="150,60,0,200" VerticalAlignment="Stretch" Source="warehouse_plan.png"/>
+        </Grid>
     </Grid>
 </Window>

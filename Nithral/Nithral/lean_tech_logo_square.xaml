@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is compatible with Silverlight-->
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Name="svg106" Width="1000" Height="1000">
+  <Canvas.RenderTransform>
+    <TranslateTransform X="0" Y="0"/>
+  </Canvas.RenderTransform>
+  <Canvas.Resources/>
+  <!--Unknown tag: metadata-->
+  <!--Unknown tag: sodipodi:namedview-->
+  <Canvas Name="g104">
+    <Canvas Name="g90">
+      <Canvas.RenderTransform>
+        <MatrixTransform Matrix="1.24912 0 0 0.994316 -249.12 750"/>
+      </Canvas.RenderTransform>
+      <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path88" Fill="#E2000F" StrokeMiterLimit="1.41421" StrokeLineJoin="Round" Data="M799.859 0L399.577 0L399.577 251.429L1000 251.429L799.859 0Z"/>
+    </Canvas>
+    <Canvas Name="g94">
+      <Canvas.RenderTransform>
+        <MatrixTransform Matrix="0.994316 0 0 0.75 750 250"/>
+      </Canvas.RenderTransform>
+      <Path xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name="path92" Fill="#334048" StrokeMiterLimit="1.41421" StrokeLineJoin="Round" Data="M251.429 0L0 0L0 666.667L251.429 1000L251.429 0Z"/>
+    </Canvas>
+    <Canvas Name="g98">
+      <Canvas.RenderTransform>
+        <MatrixTransform Matrix="0.994316 0 0 1 0 0"/>
+      </Canvas.RenderTransform>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="0" Canvas.Top="0" Width="251.429" Height="1000" Name="rect96" Fill="#FD0002" StrokeMiterLimit="1.41421" StrokeLineJoin="Round"/>
+    </Canvas>
+    <Canvas Name="g102">
+      <Canvas.RenderTransform>
+        <MatrixTransform Matrix="1 0 0 0.994316 -4.68514e-14 -1.9538e-15"/>
+      </Canvas.RenderTransform>
+      <Rectangle xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Canvas.Left="399.577" Canvas.Top="0" Width="600.423" Height="251.429" Name="rect100" Fill="#717E84" StrokeMiterLimit="1.41421" StrokeLineJoin="Round"/>
+    </Canvas>
+  </Canvas>
+</Canvas>
